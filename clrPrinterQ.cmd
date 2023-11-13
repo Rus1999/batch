@@ -1,3 +1,3 @@
 net stop spooler
-del /Q $systemroot$\system32\spool\printers\*.*
+del /Q WINDOWS\$systemroot$\system32\spool\PRINTERS\*.*
 net start spooler
